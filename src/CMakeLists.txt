@@ -21,4 +21,4 @@ set_target_properties (ULoquendoTTS PROPERTIES
   SOVERSION 0.0.1
   PREFIX "")
 
-#install (TARGETS ULoquendoASR  DESTINATION lib/gostai/uobjects COMPONENT libraries)
+install (TARGETS ULoquendoTTS  DESTINATION lib/gostai/uobjects COMPONENT libraries)
